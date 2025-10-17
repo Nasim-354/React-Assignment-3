@@ -1,0 +1,24 @@
+.todo {
+  padding: 0.8rem;
+  margin: 1rem;
+  background: #444;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.todo h2 {
+  color: #fff;
+}
+.todo p {
+  color: #868686;
+  text-align: justify;
+  box-sizing: content-box;
+}
+.todo .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.todo .btn .btns {
+  color: red;
+  background-color: #000;
+}

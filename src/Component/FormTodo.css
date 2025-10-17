@@ -1,0 +1,36 @@
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 0.8rem;
+  /* background-color: #443a3a33; */
+  box-shadow: inset 10px 10px 100px #443a3a33, inset -10px -10px 100px #443a3a33;
+  border-radius: 0.3rem;
+}
+form .tittleArea,
+.desArea {
+  margin-bottom: 0.8rem;
+}
+form .tittleArea input,
+form .desArea textarea {
+  width: 100%;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+  resize: none;
+  box-sizing: border-box;
+}
+form .buttonArea {
+  text-align: center;
+}
+form .buttonArea button {
+  width: 100%;
+  padding: 0.6rem 0.4rem;
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s;
+  border-radius: 0.3rem;
+  border: none;
+}
+form .buttonArea button:hover {
+  background: #312f2f22;
+  border-color: lightblue;
+}

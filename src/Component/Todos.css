@@ -1,0 +1,11 @@
+.todos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  margin: 2rem 0.5rem;
+  gap: 1rem;
+}
+@media (max-width: 670px) {
+  .todos {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+}
