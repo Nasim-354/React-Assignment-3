@@ -5,9 +5,14 @@ export default function Todo(props) {
   const { tittle, description } = props.data;
   const { id } = props;
 
-  const handelDelete = (id) => {
-    props.onRemove(id);
-    alert("Are you sure?");
+  const handleDelete = (id) => {
+    const choice = confirm("Are you sure?");
+    if (choice) {
+      props.onRemove(id);
+      alert("yes");
+    } else {
+      alert("no");
+    }
   };
   return (
     <div className="todo">
@@ -18,7 +23,7 @@ export default function Todo(props) {
         <button
           className="btns"
           onClick={() => {
-            handelDelete(id);
+            handleDelete(id);
           }}
         >
           Delete
