@@ -9,9 +9,12 @@
   color: #fff;
 }
 .todo p {
+  font-size: 14px;
+  line-height: 1.4;
   color: #868686;
+  white-space: normal;
   text-align: justify;
-  box-sizing: content-box;
+  word-break: break-all;
 }
 .todo .btn {
   position: absolute;
