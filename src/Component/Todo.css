@@ -25,3 +25,9 @@
   color: red;
   background-color: #000;
 }
+.todo .btn .toggle {
+  margin: 0.5rem 0 0 0.5rem;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+}

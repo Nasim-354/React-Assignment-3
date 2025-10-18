@@ -29,16 +29,15 @@ export default function Todo(props) {
           Delete
         </button>
 
-        <div className="toggleBtn">
-          <button
-            type="button"
-            onClick={() => {
-              setToggle(!toggle);
-            }}
-          >
-            {toggle ? "-" : "+"}
-          </button>
-        </div>
+        <button
+          className="toggle"
+          type="button"
+          onClick={() => {
+            setToggle(!toggle);
+          }}
+        >
+          {toggle ? "-" : "+"}
+        </button>
       </div>
     </div>
   );
